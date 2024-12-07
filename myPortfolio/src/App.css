@@ -1,9 +1,33 @@
-#root {
-  margin: 0;
-}
+/* medula one google font  */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Medula+One&family=Parkinsans:wght@300..800&display=swap");
+/* font  */
+/* tailwind 3 link  */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* tailwind 3 link  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  font-family: "Lato", sans-serif;
+  font-weight: 520;
+  font-style: normal;
+}
+#main-background{
+  background-image: url(/src/assets/material/reactangle.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
 /* keyframes */
 /* @keyframes logo-spin {
   from {

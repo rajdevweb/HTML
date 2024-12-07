@@ -1,0 +1,41 @@
+.home-main-section {
+  height: 1001px;
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid black; */
+}
+ .home-left-section{
+  display: flex;
+  flex-direction: column;
+  margin-top: 300px;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+ }
+
+.home-left-section h1{
+  font-size:70px; 
+}
+.home-left-section h4 {
+  font-size: 30px;
+  text-decoration: overline
+  ;
+  text-decoration: underline;
+}
+.home-right-section img{
+  max-width: 500px;
+  width: 100%;
+}
+.home-right-section{
+  width: 40%;
+}
+.left-section-btn{
+    background: linear-gradient(180deg,
+          #B95C00,
+          #B95C00);
+    padding: 5px 10px;
+    color: white;
+    border-radius:50px;
+    text-align: center;
+    margin-top: 15px;
+}

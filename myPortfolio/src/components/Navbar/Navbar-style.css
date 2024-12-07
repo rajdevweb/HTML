@@ -1,0 +1,40 @@
+.main-navbar {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.nav-icon {
+  width: 5vh;
+  height: 5vh;
+}
+.header-4{
+ font-size:25px; 
+ text-align: center; 
+ margin-left: 15px;
+ color: #B95C00;
+}
+.left-section {
+  display: flex;
+  gap: 3px;
+}
+.right-section {
+  gap: 10px;
+  left: 10px;
+}
+.right-section a {
+  display:inline-block;
+  margin-right: 25px;
+  font-size: 25px;
+  color: #B95C00;
+}
+.highlight-btn{
+  background:linear-gradient(180deg,
+    #B95C00,
+    #B95C00
+    ); 
+    padding: 1px;
+    border-radius: 5px;
+    color:  white !important;
+    padding: 0px 3px;
+}
