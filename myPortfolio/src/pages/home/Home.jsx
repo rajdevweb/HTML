@@ -9,8 +9,9 @@ const Home = () => {
          <h4>Front-end Developer</h4>
          <button className='left-section-btn'>get resume</button>
         </div>
-        <div className="home-right-section ">
-        <img className='' src="/src/assets/material/people-4.png"  alt="image"/>
+        <div className="home-right-section">
+        <img className='' src="/src/people-4.png" alt="image"/>
+       
         </div>
        
       </div>

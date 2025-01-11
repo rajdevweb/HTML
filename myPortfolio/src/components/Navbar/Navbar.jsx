@@ -10,7 +10,7 @@ const Navbar = () => {
    
    <div className='main-navbar'>
     <div className='left-section' >
-        <img className='nav-icon' src="./src/components/Navbar/icon.jpg" alt="Icon"/>
+        <img className='nav-icon' src="/src/icon.jpg" alt="Icon"/>
         <h4 className='header-4'>Raj vishwakarma</h4>
     </div>
     <div className='right-section'>

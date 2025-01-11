@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+      // hide and show
+      // $(document).ready(function(){
+      //     $("#hide").click(function(){
+      //         $("p").hide();
+      //     })
+      //     $("#show").click(function () {
+      //         $("p").show();
+      //     });
+      // })
+
+      //  hide and show toggle
+      // $(document).ready(function(){
+      //     $("#hide").click(function(){
+      //         $("p").toggle();
+      //     })
+
+      // })
+
+      // slidedown
+      // $(document).ready(function(){
+      //     $("#hide").click(function(){
+      //         $("#para").slideToggle("slow")
+      //     });
+      // });
+
+      // aniamtion
+    // $(document).ready(function () {
+    //         $("#hide").click(function() {
+    //             $("#container").animate({ right: '250px' });
+    //         });
+    //     });
+
+
+        $(document).ready(function () {
+                $("#hide").click(function () {
+                    $("#container").animate({ left: '250px' });
+                });
+            });
+    </script>
+    <style>
+      /* #para{
+            display: none;
+          } */
+    </style>
+  </head>
+  <body>
+    <!-- <div class="max-w-2xl mx-auto">
+        <p class="bg-gray-300 border mt-5 p-5 rounded-lg ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti aliquid odit doloribus maiores vel iusto harum laborum qui unde accusantium vitae enim nobis, minima ullam, molestiae quaerat. Tempore, ducimus dolorem!</p>
+        <div class="mt-5">
+            <button id="hide" class="border rounded-lg border-b-green-600 bg-green-500 text-white px-3 py-2">HIDE</button>
+            <button id="show" class="border text-white  border-b-red-600 bg-red-500 rounded-lg px-3 py-2">SHOW</button>
+        </div>
+       
+        
+    </div> -->
+
+    <!--  hide and show toggle -->
+    <!-- <div class="max-w-2xl mx-auto">
+            <p class="bg-gray-300 border mt-5 p-5 rounded-lg ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti aliquid odit doloribus maiores vel iusto harum laborum qui unde accusantium vitae enim nobis, minima ullam, molestiae quaerat. Tempore, ducimus dolorem!</p>
+            <div class="mt-5">
+                <button id="hide" class="border rounded-lg border-b-green-600 bg-green-500 text-white px-3 py-2">HIDE</button>
+                <!-- <button id="show" class="border text-white  border-b-red-600 bg-red-500 rounded-lg px-3 py-2">SHOW</button> -->
+    <!-- </div>  
+        </div> -->
+
+    <!-- hide and show toggle  -->
+    <!-- <div class="max-w-2xl mx-auto">
+                <p class="bg-gray-300 border mt-5 p-5 rounded-lg ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                    aliquid odit doloribus maiores vel iusto harum laborum qui unde accusantium vitae enim nobis, minima ullam,
+                    molestiae quaerat. Tempore, ducimus dolorem!</p>
+                <div class="mt-5">
+                    <button id="hide" class="border rounded-lg border-b-green-600 bg-green-500 text-white px-3 py-2">HIDE</button>
+                    <!-- <button id="show" class="border text-white  border-b-red-600 bg-red-500 rounded-lg px-3 py-2">SHOW</button> -->
+    <!-- </div>
+            </div> -->
+
+    <!-- <div class="max-w-2xl mx-auto">
+                <p class="bg-gray-300 border mt-5 p-5 rounded-lg ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                    aliquid odit doloribus maiores vel iusto harum laborum qui unde accusantium vitae enim nobis, minima ullam,
+                    molestiae quaerat. Tempore, ducimus dolorem!</p>
+                <div class="mt-5">
+                    <button id="hide" class="border rounded-lg border-b-green-600 bg-green-500 text-white px-3 py-2">HIDE</button>
+                    <!-- <button id="show" class="border text-white  border-b-red-600 bg-red-500 rounded-lg px-3 py-2">SHOW</button> -->
+    <!-- </div>
+            </div> -->
+
+    <!-- slidedown -->
+    <!-- <div class="max-w-2xl mx-auto">
+                    <p id="para" class="bg-gray-300 border mt-5 p-5 rounded-lg ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                        aliquid odit doloribus maiores vel iusto harum laborum qui unde accusantium vitae enim nobis, minima ullam,
+                        molestiae quaerat. Tempore, ducimus dolorem!</p>
+                    <div class="mt-5">
+                        
+                        <!-- <button id="show" class="border text-white  border-b-red-600 bg-red-500 rounded-lg px-3 py-2">SHOW</button> -->
+    <!-- </div>
+                    
+                </div> -->
+    <!-- <button id="hide" class="border rounded-lg border-b-green-600 bg-green-500 text-white px-3 py-2">HIDE</button> -->
+
+    <!-- animation -->
+    <div id="container"  class=" max-w-2xl mx-auto">
+      <p id="para" class="bg-gray-300 border mt-5 p-5 rounded-lg">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+        aliquid odit doloribus maiores vel iusto harum laborum qui unde
+        accusantium vitae enim nobis, minima ullam, molestiae quaerat. Tempore,
+        ducimus dolorem!
+      </p>
+      <div class="mt-5">
+        <!-- <button id="show" class="border text-white  border-b-red-600 bg-red-500 rounded-lg px-3 py-2">SHOW</button> -->
+      </div>
+    </div>
+
+    <button
+      id="hide"
+      class="border rounded-lg border-b-green-600 bg-green-500 text-white px-3 py-2"
+    >
+      HIDE
+    </button>
+
+
+    
+  </body>
+</html>
